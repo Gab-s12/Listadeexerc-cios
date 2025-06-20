@@ -1,0 +1,15 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+}
+
+.perfil {
+  padding: 20px;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
