@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil com Validação</title>
+  <style>
+    body {
+      background-color: rgb(173, 226, 230);
+    }
+  </style>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="Exercício8.js" defer></script>
+</head>
+<body>
+  <h1>Preencha seu Perfil</h1>
+  <form id="formPerfil">
+    <label>Nome:</label><br>
+    <input type="text" id="nome" required><br><br>
+    <label>Descrição:</label><br>
+    <textarea id="descricao" required></textarea><br><br>
+    <label>Foto (URL):</label><br>
+    <input type="text" id="foto" required><br><br>
+    <label>Hobbies (separados por vírgula):</label><br>
+    <input type="text" id="hobbies" required><br><br>
+    <button type="submit">Criar Perfil</button>
+  </form>
+  <section id="perfil" class="perfil" style="display:none;"></section>
+</body>
+</html>

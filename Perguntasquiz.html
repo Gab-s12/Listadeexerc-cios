@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pergunta de Quiz</title>
+  <style>
+    body {
+      background-color: rgb(229, 173, 230);
+    }
+  </style>
+</head>
+<body>
+  <h1>Qual é a capital do Brasil?</h1>
+  <form id="quizForm">
+    <input type="radio" name="resposta" value="a"> São Paulo<br>
+    <input type="radio" name="resposta" value="b"> Rio de Janeiro<br>
+    <input type="radio" name="resposta" value="c"> Brasília<br>
+    <input type="radio" name="resposta" value="d"> Salvador<br><br>
+    <button type="button" onclick="verificarResposta()">Verificar</button>
+  </form>
+
+  <p id="resultado"></p>
+  <script src="Exercício12.js"></script>
+</body>
+</html>

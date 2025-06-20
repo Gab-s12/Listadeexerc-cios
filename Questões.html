@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz de Matemática</title>
+  <style>
+    body {
+      background-color: rgb(227, 230, 173);
+    }
+  </style>
+</head>
+<body>
+  <h2>Exercícios de Mat</h2>
+  <form id="quizForm">
+    <p>1. Quanto é 5 + 3?</p>
+    <label><input type="radio" name="q1" value="a"> 6</label><br>
+    <label><input type="radio" name="q1" value="b"> 8</label><br>
+    <label><input type="radio" name="q1" value="c"> 10</label><br>
+    <p>2. Quanto é 7 × 6?</p>
+    <label><input type="radio" name="q2" value="a"> 42</label><br>
+    <label><input type="radio" name="q2" value="b"> 36</label><br>
+    <label><input type="radio" name="q2" value="c"> 48</label><br>
+    <p>3. Qual é a raiz quadrada de 81?</p>
+    <label><input type="radio" name="q3" value="a"> 9</label><br>
+    <label><input type="radio" name="q3" value="b"> 8</label><br>
+    <label><input type="radio" name="q3" value="c"> 7</label><br><br>
+
+    <button type="button" onclick="verificarRespostas()">Verificar</button>
+  </form>
+
+  <p id="resultado"></p>
+
+  <script src="Exercício17.js"></script>
+</body>
+</html>
